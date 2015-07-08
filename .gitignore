@@ -1,0 +1,55 @@
+syntax: regexp
+^modules$
+syntax: regexp
+^dist$
+syntax: regexp
+^eclipse$
+syntax: regexp
+^precompiled$
+syntax: regexp
+^tmp$
+syntax: regexp
+^\.classpath$
+syntax: regexp
+^\.project$
+syntax: regexp
+^\.settings$
+syntax: regexp
+^test-output$
+syntax: regexp
+^.metadata$
+syntax: regexp
+^\RemoteSystemsTempFiles$
+syntax: regexp
+
+
+syntax: regexp
+^test-result$
+syntax: regexp
+^bak$
+syntax: regexp
+^logs$
+syntax: regexp
+\.orig$
+syntax: regexp
+\.tar.gz$
+syntax: regexp
+^package$
+syntax: glob
+cobertura.ser
+
+syntax: regexp
+prod$
+syntax: regexp
+dev$
+
+.project
+.classpath
+/eclipse/
+/tmp/
+/bin/
+/precompiled/
+/dist/
+/logs/
+/.settings/
+*.class
